@@ -12,7 +12,8 @@ Through the analysis we could see that stock performance overall was better in 2
 
 ### Execution times
 
-Performance times were greatly enhanced from code that did not contain arrays.  Previously the code was running at ~ .67 seconds regardless of years we saw an increase performance from those numbers as can be seen here:
+Performance times were greatly enhanced from code that did not contain arrays.  Previously the code was running at ~ .67 seconds for both years.  Currently we see an increase performance for both years as can be seen here:
+
 ![2017 performance](https://github.com/lavec0324/Homework_Challenge2/blob/main/Resources/VBA_Challenge_2017.PNG)
 
 ![2018 performance](https://github.com/lavec0324/Homework_Challenge2/blob/main/Resources/VBA_Challenge_2018.PNG)
@@ -20,7 +21,6 @@ Performance times were greatly enhanced from code that did not contain arrays.  
 Code that help produce these efficiencies include:
 
 ```
-pull    
         1b) Create three output arrays
         
         Dim tickerVolumes(12) As Long
@@ -48,8 +48,11 @@ and
 ### Summary
 #### What are the advantages or disadvantages of refactoring code?
 
-I could see no clear disadvantages for refactoring the code to use arrays.  The clear advantage was the enhanced performance to run time.
+The clear advantage was the enhanced performance to run time and clear code that could be utilized in 
+the future.  For larger scale projects these run times also equate to money so that would allow companies to save money with more efficient code.  The only disadvantage that I
+could see was the additional time needed to refactor the code but if it was used repeatedly this would payoff from the upfront investment.
 
-##### How do these pros and cons apply to refactoring the original VBA script.
-
+#### How do these pros and cons apply to refactoring the original VBA script.
+The pros and cons are similar to the general pros and cons.  The upfront time and investment needed to refactor the code was there (especially for a novice. :smile:
+as a disadvantage.  The advantage was the efficiency gains from refactoring and learning how to use arrays! 🥳
 
