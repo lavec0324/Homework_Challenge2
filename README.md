@@ -19,12 +19,12 @@ Performance times were greatly enhanced from code that did not contain arrays.  
 
 Code that help produce these efficiencies include:
 '''
-    '1b) Create three output arrays
+    1b) Create three output arrays
     Dim tickerVolumes(12) As Long
     Dim tickerStartingPrices(12) As Single
     Dim tickerEndingPrices(12) As Single
 
-    '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+    4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
     For m = 0 To 11
         
         Worksheets("AllStocksAnalysis").Activate
