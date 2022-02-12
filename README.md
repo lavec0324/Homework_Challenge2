@@ -18,23 +18,32 @@ Performance times were greatly enhanced from code that did not contain arrays.  
 ![2018 performance](https://github.com/lavec0324/Homework_Challenge2/blob/main/Resources/VBA_Challenge_2018.PNG)
 
 Code that help produce these efficiencies include:
-'''
-    1b) Create three output arrays
-    Dim tickerVolumes(12) As Long
-    Dim tickerStartingPrices(12) As Single
-    Dim tickerEndingPrices(12) As Single
+
+```
+pull    
+        1b) Create three output arrays
+        
+        Dim tickerVolumes(12) As Long
+        Dim tickerStartingPrices(12) As Single
+        Dim tickerEndingPrices(12) As Single
+    
+```
+
+and
+
+```
 
     4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+    
     For m = 0 To 11
         
         Worksheets("AllStocksAnalysis").Activate
         Cells(m + 4, 1).Value = tickers(m)
         Cells(m + 4, 2).Value = tickerVolumes(m)
         Cells(m + 4, 3).Value = tickerEndingPrices(m) / tickerStartingPrices(m) - 1
-                
-    Next m
-
-'''
+     
+    Next m   
+```
 
 ### Summary
 #### What are the advantages or disadvantages of refactoring code?
