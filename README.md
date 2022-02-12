@@ -53,6 +53,7 @@ the future.  For larger scale projects these run times also equate to money so t
 could see was the additional time needed to refactor the code but if it was used repeatedly this would payoff from the upfront investment.
 
 #### How do these pros and cons apply to refactoring the original VBA script.
-The pros and cons are similar to the general pros and cons.  The upfront time and investment needed to refactor the code was there (especially for a novice) :smile:
+The pros and cons are similar to the general pros and cons.  The upfront time and investment needed to refactor the code was there (especially for a novice :smile: )
 as a disadvantage.  The advantage was the efficiency gains from refactoring and learning how to use arrays! 🥳
-
+Potentially you could look at this use of arrays with a fixed number of outcomes as a disadvantage as that may not be known upfront.  Also the way the code is written the ticket 
+symbols and dates needs to be in alphabetical order; although this is a disadvantage to both sets of code.
